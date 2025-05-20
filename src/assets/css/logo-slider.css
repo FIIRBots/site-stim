@@ -1,0 +1,35 @@
+/* slider centrat, cu padding sus/jos */
+.slider {
+  margin: 0 auto;
+  padding: 4em 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+/* linia de slide-uri, flex orizontal */
+.slide-track {
+  display: flex;
+  gap: 3em;
+  animation: scroll 30s linear infinite;
+}
+
+/* fiecare logo */
+.slide {
+  flex: 0 0 auto;
+  width: calc((100% / 5) - (3em * (4/5))); /* cinci pe ecran cu gap */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide img {
+  max-width: 100%;
+  max-height: 80px;
+  object-fit: contain;
+}
+
+/* animația: mută întreaga bandă în stânga până la jumătate (unde se află repetarea) */
+@keyframes scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}

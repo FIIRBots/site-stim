@@ -1,0 +1,1 @@
+export default function GetInvolved() { return <h1>GetInvolved</h1>; }
