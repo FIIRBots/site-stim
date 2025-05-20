@@ -1,4 +1,4 @@
-import logo from '../assets/img/LOGO.SVG';
+import logo from '../assets/img/logo.svg';
 import { FaEnvelope, FaMapMarkerAlt, FaFacebook, FaLinkedin, FaInstagram, FaTiktok } from 'react-icons/fa';
 
 export default function Footer() {

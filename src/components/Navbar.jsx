@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo from '../assets/img/LOGO.SVG'; // adaugă logo-ul în assets/img
+import logo from '../assets/img/logo.svg'; // adaugă logo-ul în assets/img
 
 export default function Navbar() {
   return (
